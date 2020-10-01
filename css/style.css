@@ -1,7 +1,46 @@
+body {
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.whole {
+    display: grid;
+    grid-template-columns: 33.2fr 65fr;
+}
+
 .container1 {
     background-color: #F1CDD7;
+    height: 50rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    color: rgb(134, 92, 108);
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.logo {
+    width: 6rem;
+    font-weight: 800;
+    color: rgb(166, 125, 140);
+    fill: currentColor;
+    margin-bottom: 1.8rem;
 }
 
 .container2 {
-    background-color: ;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.link2 {
+    color: rgb(79, 60, 201);
+    border: none;
+    text-decoration: none;
 }
