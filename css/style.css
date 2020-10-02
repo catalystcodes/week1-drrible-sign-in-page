@@ -24,6 +24,7 @@ body {
     color: rgb(166, 125, 140);
     fill: currentColor;
     margin-bottom: 1.8rem;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container2 {
@@ -122,7 +123,7 @@ img1 {}
 
 .input1 {
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     outline: none;
     background-color: rgb(243, 243, 244);
     padding-right: 14.4rem;
@@ -137,4 +138,34 @@ h3 {
 .head3 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1.6rem;
+}
+
+.head4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link3 {
+    border: none;
+    text-decoration: none;
+    color: rgb(117, 60, 204);
+}
+
+.bot2 {
+    padding-right: 4.7rem;
+    padding-left: 4.7rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 8px;
+    height: 2.5rem;
+    background-color: rgb(234, 76, 137);
+    border: none;
+    outline: none;
+}
+
+.p3 {
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 700;
 }
