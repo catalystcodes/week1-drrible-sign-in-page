@@ -221,3 +221,19 @@ input:hover {
 input {
     border: 1px solid transparent;
 }
+
+.img9 {
+    background-size: cover;
+}
+
+.img8 {
+    width: 30rem;
+    height: 30rem;
+    margin-left: -3rem;
+}
+
+.p5 {
+    text-decoration: none;
+    color: rgb(166, 125, 140);
+    font-size: 14px;
+}
